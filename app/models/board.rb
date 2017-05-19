@@ -2,11 +2,19 @@ class Board
 
   attr_reader :fields
 
-  def initalize
+  def initialize
     @fields = [
-                nil, nil ,nil,
-                nil, nil, nil,
-                nil, nil, nil
-              ]
+              " ", " " ," ",
+              " ", " ", " ",
+              " ", " ", " "
+            ]
   end
+
+  private
+
+  attr_writer :fields
+
+  # def board_full?
+  # end
+
 end
