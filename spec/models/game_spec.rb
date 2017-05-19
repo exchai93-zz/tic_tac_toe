@@ -21,6 +21,12 @@ describe Game do
     end
   end
 
+  describe '#current_turn' do
+    it 'returns player_X' do
+      expect(game.current_turn).to eq player_X
+    end
+  end
 
-  
+
+
 end
