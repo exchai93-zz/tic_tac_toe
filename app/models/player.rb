@@ -1,9 +1,9 @@
 class Player
 
-  attr_reader :player
+  attr_reader :counter
 
-  def initalize(player)
-    @player = player
+  def initialize(counter)
+    @counter = counter
   end
 
 end
